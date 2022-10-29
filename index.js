@@ -19,7 +19,7 @@ client.on("ready", () => {
 client.on("interactionCreate", async (interaction) => {
   if (!interaction.isChatInputCommand()) return;
 
-  if (interaction.commandName === "arena") {
+  if (interaction.commandName === "ping") {
     await interaction.reply(`[10-10]: ${victoryBrideTime}`);
 
     interaction.guild.channels
