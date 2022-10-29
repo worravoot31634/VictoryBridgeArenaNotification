@@ -1,5 +1,5 @@
 require("dotenv").config();
-const schedule = require('node-schedule');
+const schedule = require("node-schedule");
 const { victoryBrideTime } = require("./utils/get_date.js");
 const { Client, GatewayIntentBits } = require("discord.js");
 
